@@ -1,0 +1,886 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 1000000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9900960,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9900960
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27762.753
+       EColl = n^2 / (2k) =  178.3137285
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27762.75
+       Expected number of collisions = Mu =     178.31
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5349.31
+Observed number of collisions         :     5066
+p-value of test                       : 1 -  4.8e-5    *****
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246040184586
+  j =  1                              :        297018668
+  j =  2                              :             5066
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:02:39.53
+
+Generator state:
+ 297028800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  8,  n = 1953125,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   23.00
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:07.49
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  8,  n = 976562,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.19
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.55
+
+Generator state:
+ 999999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 31250000,   K = 31250000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =    937500000 bits
+   Q = 31250000 initialization blocks
+   K = 31250000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.40
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.38
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 73216,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    9
+Chi2 statistic for size of jumps      :    9.58
+p-value of test                       :    0.39
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.36
+p-value of test                       :    0.64
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.06
+
+Generator state:
+ 73216  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.11
+p-value of test                       :    0.54
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.99
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    1.33
+p-value of test                       :    0.09
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.00
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 60916,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.28
+p-value of test                       :2.5e-293    *****
+
+Kolmogorov-Smirnov- statistic = D-    : 3.56e-3
+p-value of test                       :    0.90
+
+Anderson-Darling statistic = A2       : 1183.94
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.78
+
+Generator state:
+ 999997056  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 1666656
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    6.28
+p-value of test                       :    0.62
+
+-----------------------------------------------
+Global longest run of 1               :   29.00
+p-value of test                       :    0.61
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.37
+
+Generator state:
+ 999993600  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 31250000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  215
+Chi-square statistic                  :  731.93
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.91
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 31250000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   26
+Chi-square statistic                  : 1043.53
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.94
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 31250000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.60
+p-value of test                       :    0.73
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.94
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 15625000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :  -0.053
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.93
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 7812500,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.23
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.94
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 31250000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  257
+Chi-square statistic                  : 2079.34
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.19
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 15625000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  497
+Chi-square statistic                  : 1522.50
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.99
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 7812500,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  877
+Chi-square statistic                  : 1346.28
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.00
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  2,  n = 499999937,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :   71.47
+p-value of test                       : 1.1e-32    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   72.93
+p-value of test                       :   eps      *****
+
+Sample variance                       :    1.13
+p-value of test                       :    0.29
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.12
+
+Generator state:
+ 999999936  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  2,  n = 499999938,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :   71.47
+p-value of test                       : 1.1e-32    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   63.03
+p-value of test                       :   eps      *****
+
+Sample variance                       :    4.71
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.24
+
+Generator state:
+ 999999936  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  200000007
+
+Number of degrees of freedom          :   48
+Chi2 statistic for number of runs     :13018.66
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Total number of bits:  798181056
+
+Normal statistic for number of bits   :  -45.47
+p-value of test                       : 1 - eps1    *****
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.40
+
+Generator state:
+ 798181056  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 976562,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    2.35
+p-value of test                       :    0.67
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.46
+
+Generator state:
+ 999999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 9765,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.82
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:08.74
+
+Generator state:
+ 999936000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 953,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    3.28
+p-value of test                       :    0.19
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.37
+
+Generator state:
+ 999292928  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 7812500,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :  300.25
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   53
+ChiSquare statistic                   :  285.61
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   60.40
+p-value of test                       :    0.60
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   43
+ChiSquare statistic                   :  296.41
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   26
+ChiSquare statistic                   :   79.71
+p-value of test                       :  2.3e-7    *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.62
+
+Generator state:
+ 1000000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 976562,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  130
+ChiSquare statistic                   :  160.55
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  131
+ChiSquare statistic                   :  169.66
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  486.27
+p-value of test                       :    0.79
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  124
+ChiSquare statistic                   :  145.73
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   67
+ChiSquare statistic                   :   67.26
+p-value of test                       :    0.47
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.73
+
+Generator state:
+ 999999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = FRA, Linux
+
+ufile_CreateReadBin:   data/chaotic_von_neumann_GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 99840,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  318
+ChiSquare statistic                   :  348.10
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  319
+ChiSquare statistic                   :  282.27
+p-value of test                       :    0.93
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 4770.98
+p-value of test                       :    0.9918
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  315
+ChiSquare statistic                   :  289.73
+p-value of test                       :    0.84
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  169
+ChiSquare statistic                   :  147.03
+p-value of test                       :    0.89
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.45
+
+Generator state:
+ 999997440  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             data/chaotic_von_neumann_GB.bin
+ Number of bits:   1000000000
+ Number of statistics:  40
+ Total CPU time:   00:04:52.56
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  MultinomialBitsOver            1 -  4.8e-5
+  8  Fourier3                         eps  
+ 10  PeriodsInStrings                 eps  
+ 11  HammingWeight                    eps  
+ 15  HammingIndep, L = 16             eps  
+ 16  HammingIndep, L = 32             eps  
+ 17  HammingIndep, L = 64             eps  
+ 18  AutoCor                          eps  
+ 19  AutoCor                          eps  
+ 20  Run of bits                      eps  
+ 20  Run of bits                    1 - eps1
+ 24  RandomWalk1 H                    eps  
+ 24  RandomWalk1 M                    eps  
+ 24  RandomWalk1 R                    eps  
+ 24  RandomWalk1 C                   2.3e-7
+ ----------------------------------------------
+ All other tests were passed
+
+
+

@@ -1,0 +1,10 @@
+ Dear group,
+
+Here is some information you can use for a project. Note that in order to make the project interesting for three people implementation and histogram of distribution is not sufficient, but there are many directions you can take according to what is useful.
+
+As I say in the notes and told you in person, there is no professional RNG that uses chaos AFAIK (unless it is a physical RNG, like a laser).
+
+Unrelated to the project: you might be able to incorporate the fact that a few consecutive outputs can provide the state of the system into the game mechanic? Maybe you can turn it into a part of the game to try to predict the RNG state and beat the odds...
+
+Ciao,
+Andrea
